@@ -1,0 +1,24 @@
+import Dots from "components/Dots";
+import ProjectsSlider from "components/ProjectsSlider";
+import VerticalText from "components/VerticalText";
+import React from "react";
+
+const Projects = () => {
+  return (
+    <div
+      id="projects"
+      className="container flex flex-col lg:flex-row items-center justify-center !mt-10 lg:gap-x-20"
+    >
+      <div className="relative flex items-center justify-center">
+        <Dots className="-left-10 -top-10"></Dots>
+        <VerticalText className="dark:z-[2]">Projects</VerticalText>
+      </div>
+      <div className="relative flex-1 lg:ml-20">
+        <ProjectsSlider></ProjectsSlider>
+        <Dots className="right-1 top-72"></Dots>
+      </div>
+    </div>
+  );
+};
+
+export default Projects;
