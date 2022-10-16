@@ -7,12 +7,12 @@ const Home = () => {
   return (
     <div className="container flex flex-col lg:flex-row items-center justify-center !mt-10 lg:gap-x-20">
       <div className="relative flex items-center justify-center">
-        <Dots className="-left-10 -top-10"></Dots>
-        <VerticalText className="dark:z-[2]">HoangLoi</VerticalText>
+        <Dots className="z-[1] -left-10 -top-10"></Dots>
+        <VerticalText className="z-[2]">HoangLoi</VerticalText>
         <img
           src="/hoangloi.png"
           alt="hoangloi"
-          className="absolute lg:left-4 img-hoangloi w-[230px] h-[480px] max-w-none dark:z-[3]"
+          className="absolute lg:left-4 img-hoangloi w-[230px] h-[480px] max-w-none z-[3]"
         />
       </div>
       <div className="flex-1 lg:ml-20">
