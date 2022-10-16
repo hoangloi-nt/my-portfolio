@@ -11,6 +11,9 @@ module.exports = {
         light: "#FFF8EA",
         dark: "#372c2c",
       },
+      backgroundImage: {
+        "white-dots": "radial-gradient(white 1px, transparent 0)",
+      },
     },
   },
   plugins: [],
