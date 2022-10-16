@@ -28,8 +28,8 @@ const Home = () => {
             <span>Hello, I am</span> <ChangingText></ChangingText>
           </div>
           <a
-            href="/FrontendDev_NguyenTranHoangLoi.pdf"
-            download="FrontendDev_NguyenTranHoangLoi"
+            href="/FrontendDeveloper_NguyenTranHoangLoi.pdf"
+            download="FrontendDeveloper_NguyenTranHoangLoi"
             className="flex items-start justify-center p-5 text-xl font-semibold text-white transition-all shadow-md lg:text-2xl lg:font-bold bg-gradient-to-r from-primary via-secondary to-third hover:animate-bounce dark:bg-none dark:bg-white dark:text-primary"
           >
             Download CV
