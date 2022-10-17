@@ -8,7 +8,14 @@ const Home = () => {
     <div className="container flex flex-col lg:flex-row items-center justify-center !mt-10 lg:gap-x-20">
       <div className="relative flex items-center justify-center">
         <Dots className="z-[1] -left-10 -top-10"></Dots>
-        <VerticalText className="z-[2]">HoangLoi</VerticalText>
+        <VerticalText
+          data-aos="fade-right"
+          data-aos-offset="300"
+          data-aos-easing="ease-in-sine"
+          className="z-[2]"
+        >
+          HoangLoi
+        </VerticalText>
         <img
           src="/hoangloi.png"
           alt="hoangloi"

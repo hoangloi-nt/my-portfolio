@@ -9,6 +9,9 @@ const Contact = () => {
     <div
       id="contact"
       className="container flex flex-col lg:flex-row items-center justify-center !my-10 lg:gap-x-20"
+      data-aos="fade-left"
+      data-aos-offset="500"
+      data-aos-duration="500"
     >
       <div className="relative flex items-center justify-center">
         <Dots className="dark:z-[1] -left-20 top-60"></Dots>
