@@ -11,7 +11,7 @@ const ChangingText = () => {
     return () => clearTimeout(intervalId);
   }, []);
   return (
-    <div className="inline-block text-2xl font-bold lg:text-3xl text-primary dark:text-white">
+    <div className="inline-block text-xl font-bold lg:text-2xl text-primary dark:text-white">
       <TextTransition springConfig={presets.wobbly}>
         {TEXTS[index % TEXTS.length]}
       </TextTransition>

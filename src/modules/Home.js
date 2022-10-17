@@ -19,25 +19,25 @@ const Home = () => {
         <div className="flex flex-col items-start justify-start p-10 gap-y-10">
           <div className="p-2 bg-gradient-to-r from-primary via-secondary to-third dark:bg-white dark:bg-none">
             <div className="flex flex-col justify-between h-full p-5 text-white bg-white dark:bg-dark">
-              <h1 className="text-2xl font-bold text-transparent lg:text-3xl bg-clip-text bg-gradient-to-r from-primary via-secondary to-third dark:text-white">
+              <h1 className="text-xl font-bold text-transparent lg:text-2xl bg-clip-text bg-gradient-to-r from-primary via-secondary to-third dark:text-white">
                 Welcome to my portfolio
               </h1>
             </div>
           </div>
-          <div className="flex flex-col text-xl font-medium lg:text-3xl lg:inline-block dark:text-white">
+          <div className="flex flex-col text-lg font-medium lg:text-xl lg:inline-block dark:text-white">
             <span>Hello, I am</span> <ChangingText></ChangingText>
           </div>
           <a
             href="/FrontendDeveloper_NguyenTranHoangLoi.pdf"
             download="FrontendDeveloper_NguyenTranHoangLoi"
-            className="flex items-start justify-center p-5 text-xl font-semibold text-white transition-all shadow-md lg:text-2xl lg:font-bold bg-gradient-to-r from-primary via-secondary to-third hover:animate-bounce dark:bg-none dark:bg-white dark:text-primary"
+            className="flex items-start justify-center p-5 text-lg font-medium text-white transition-all shadow-md lg:text-xl lg:font-bold bg-gradient-to-r from-primary via-secondary to-third hover:animate-bounce dark:bg-none dark:bg-white dark:text-primary"
           >
             Download CV
           </a>
         </div>
       </div>
       <div className="flex-1 max-w-[475px]">
-        <div className="p-5 relative w-full h-[300px] flex items-start justify-center text-xl bg-white text-justify dark:bg-transparent dark:text-white">
+        <div className="p-5 relative w-full h-[300px] flex items-start justify-center text-lg lg:text-xl bg-white text-justify dark:bg-transparent dark:text-white">
           I am a hardworking and creative person to become master in frontend
           developer. I am eager to be challenged in order to grow and further
           improve my IT skills.

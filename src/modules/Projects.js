@@ -10,7 +10,7 @@ const Projects = () => {
       className="container flex flex-col lg:flex-row items-center justify-center !mt-10 lg:gap-x-20"
     >
       <div className="relative flex items-center justify-center">
-        <Dots className="dark:z-[1] -left-10 -top-10"></Dots>
+        <Dots className="h-[500px] dark:z-[1] -left-10 -top-60"></Dots>
         <VerticalText className="dark:z-[2]">Projects</VerticalText>
       </div>
       <div className="relative flex-1 lg:ml-20">

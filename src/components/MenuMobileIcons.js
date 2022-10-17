@@ -25,7 +25,7 @@ const MenuMobileIcons = ({ showMenu, setShowMenu }) => {
         </div>
       ) : (
         <div
-          className="fixed z-50 text-primary"
+          className="fixed z-50 text-primary dark:text-white"
           onClick={() => setShowMenu(!showMenu)}
         >
           <svg
