@@ -3,7 +3,7 @@ import React from "react";
 const SocialGroupBtn = ({ className = "", className2 = "" }) => {
   return (
     <div
-      className={`flex items-center justify-start w-full h-full ${className2}`}
+      className={`flex items-center lg:justify-start text-center w-full h-full ${className2}`}
     >
       <div className={`social-icons ${className}`}>
         <a

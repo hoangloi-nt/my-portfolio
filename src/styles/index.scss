@@ -84,6 +84,11 @@
     height: 40px !important;
     right: 50px !important;
   }
+
+  .lightbox-groupbtn a {
+    font-size: 20px !important;
+    padding: 6px 12px !important;
+  }
 }
 
 // img of hoangloi
@@ -159,7 +164,7 @@
 .swiper {
   width: 600px;
   height: 400px;
-  margin-right: 40px !important;
+  margin-right: 40px;
   border-radius: 20px;
 }
 

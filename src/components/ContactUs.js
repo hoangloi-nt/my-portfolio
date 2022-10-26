@@ -59,13 +59,13 @@ export const ContactUs = () => {
       </label>
       <textarea
         name="message"
-        className="w-full px-5 py-2 text-lg border border-text bg-transparent dark:bg-dark text-text dark:text-slate-400 border-solid min-h-[150px] rounded-xl"
+        className="w-full px-5 py-2 text-lg border border-text dark:bg-dark text-text dark:text-slate-400 border-solid min-h-[150px] rounded-xl"
         placeholder="Enter your message"
         required
       />
 
       <input
-        className="text-center mx-auto w-[200px] py-3 lg:text-2xl text-lg font-semibold cursor-pointer text-text dark:text-slate-400 border border-text border-solid rounded-full dark:z-[3] hover:bg-text hover:text-white"
+        className="text-center mx-auto w-[200px] py-3 lg:text-2xl text-lg font-semibold cursor-pointer text-text dark:text-slate-400 border border-text border-solid rounded-full dark:z-[3] hover:bg-text hover:text-white bg-light dark:bg-dark"
         type="submit"
         value="Send"
       />

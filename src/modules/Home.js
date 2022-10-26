@@ -19,21 +19,9 @@ const Home = () => {
         >
           HoangLoi
         </VerticalText>
-        {/* <img
-          src="/hoangloi.png"
-          alt="hoangloi"
-          className="absolute lg:left-4 img-hoangloi w-[230px] h-[480px] max-w-none z-[3]"
-        /> */}
       </div>
       <div className="flex-1 lg:ml-20" data-aos="fade-up">
         <div className="flex flex-col items-start justify-start gap-y-10">
-          {/* <div className="p-1 bg-gradient-to-r from-slate-700 to-slate-500 dark:bg-text dark:bg-none">
-            <div className="flex flex-col justify-between h-full p-5 text-white bg-light dark:bg-dark">
-              <h1 className="text-xl font-bold text-transparent lg:text-2xl bg-clip-text bg-gradient-to-r from-[#4ca5ff] to-[#b673f8]">
-                Welcome to my portfolio
-              </h1>
-            </div>
-          </div> */}
           <h1 className="text-5xl font-bold text-transparent lg:text-6xl mt-10 lg:mt-0">
             <span className="text-text">Welcome to </span> <br></br>
             <span className="bg-clip-text bg-gradient-to-r from-[#4ca5ff] to-[#b673f8]">

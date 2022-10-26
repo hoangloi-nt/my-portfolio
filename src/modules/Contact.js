@@ -14,7 +14,10 @@ const Contact = () => {
       data-aos-duration="500"
     >
       <div className="relative flex items-center justify-center">
-        <Dots className="dark:z-[1] -left-20 top-60"></Dots>
+        <h1 className="mb-10 z-10 lg:hidden text-5xl font-bold text-transparent bg-clip-text bg-gradient-to-r from-[#4ca5ff] to-[#b673f8]">
+          Contact
+        </h1>
+        <Dots className="dark:z-[1] lg:-left-20 lg:top-60 left-0 -top-20"></Dots>
         <VerticalText className="dark:z-[2]">Contact</VerticalText>
       </div>
       <div className="flex-1 w-full lg:w-auto">
