@@ -14,7 +14,7 @@ function App() {
     AOS.init();
   }, []);
   return (
-    <div className="overflow-hidden dark:bg-dark">
+    <div className="overflow-hidden dark:bg-dark bg-light">
       <Header></Header>
       <Home></Home>
       <About></About>

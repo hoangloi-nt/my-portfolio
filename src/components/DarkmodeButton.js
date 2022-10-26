@@ -16,7 +16,7 @@ const DarkmodeButton = () => {
   return (
     <div
       onClick={handleToggleDarkMode}
-      className="flex items-center justify-center w-12 h-12 p-2 rounded-lg shadow-lg dark:bg-white group"
+      className="flex items-center justify-center w-12 h-12 p-2 rounded-lg shadow-lg dark:border dark:border-text group"
     >
       {!darkMode ? (
         <SunIcon className="w-full h-full group-hover:animate-spin"></SunIcon>

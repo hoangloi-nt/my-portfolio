@@ -8,7 +8,7 @@ const Contact = () => {
   return (
     <div
       id="contact"
-      className="container flex flex-col lg:flex-row items-center justify-center !my-10 lg:gap-x-20"
+      className="container flex flex-col lg:flex-row items-center justify-center !my-10 lg:gap-x-20 mt-20"
       data-aos="fade-left"
       data-aos-offset="500"
       data-aos-duration="500"
@@ -20,8 +20,8 @@ const Contact = () => {
       <div className="flex-1 w-full lg:w-auto">
         <ContactUs></ContactUs>
       </div>
-      <div className="my-10 text-6xl font-bold text-center dark:text-white text-primary lg:my-0">
-        OR
+      <div className="my-10 text-6xl font-bold text-center text-transparent bg-clip-text bg-gradient-to-r from-[#4ca5ff] to-[#b673f8] lg:my-0">
+        Or
       </div>
       <div className="relative flex-1 max-w-[200px]">
         <SocialGroupBtn

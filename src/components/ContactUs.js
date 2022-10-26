@@ -7,6 +7,7 @@ export const ContactUs = () => {
 
   const sendEmail = (e) => {
     e.preventDefault();
+    console.log(e);
 
     emailjs
       .sendForm(
@@ -35,35 +36,36 @@ export const ContactUs = () => {
       onSubmit={sendEmail}
       className="flex flex-col items-start justify-center max-w-xl text-xl gap-y-5"
     >
-      <label className="text-xl font-semibold text-primary dark:text-white">
-        Name
-      </label>
+      <label className="text-xl font-semibold text-text">Name</label>
       <input
         type="text"
         name="user_name"
-        className="w-full px-5 py-2 text-lg border border-black border-solid"
+        className="w-full px-5 py-2 text-lg border border-text bg-light dark:bg-dark text-text dark:text-slate-400 border-solid rounded-xl"
         placeholder="Enter your name"
+        required
       />
-      <label className="text-lg font-semibold lg:text-xl text-primary dark:text-white">
+      <label className="text-lg font-semibold lg:text-xl text-text">
         Email
       </label>
       <input
         type="email"
         name="user_email"
-        className="w-full px-5 py-2 text-lg border border-black border-solid"
+        className="w-full px-5 py-2 text-lg border border-text bg-light dark:bg-dark text-text dark:text-slate-400 border-solid rounded-xl"
         placeholder="Enter your email address"
+        required
       />
-      <label className="text-lg font-semibold lg:text-xl text-primary dark:text-white">
+      <label className="text-lg font-semibold lg:text-xl text-text">
         Message
       </label>
       <textarea
         name="message"
-        className="w-full px-5 py-2 text-lg border border-black border-solid min-h-[150px]"
+        className="w-full px-5 py-2 text-lg border border-text bg-transparent dark:bg-dark text-text dark:text-slate-400 border-solid min-h-[150px] rounded-xl"
         placeholder="Enter your message"
+        required
       />
 
       <input
-        className="w-full px-10 py-5 lg:text-xl text-lg font-semibold text-white cursor-pointer bg-gradient-to-r from-primary via-secondary to-third hover:animate-pulse dark:z-[3]"
+        className="text-center mx-auto w-[200px] py-3 lg:text-2xl text-lg font-semibold cursor-pointer text-text dark:text-slate-400 border border-text border-solid rounded-full dark:z-[3] hover:bg-text hover:text-white"
         type="submit"
         value="Send"
       />

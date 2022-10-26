@@ -14,7 +14,7 @@ const FixedMenu = ({ menuNav, showFixedMenu, className = "" }) => {
         <a
           key={item.title}
           href={item.url}
-          className="text-lg font-medium text-primary"
+          className="text-lg font-medium text-text"
         >
           {item.title}
         </a>
@@ -22,7 +22,7 @@ const FixedMenu = ({ menuNav, showFixedMenu, className = "" }) => {
       <div className="flex items-center justify-center ml-auto gap-x-20">
         <a
           href="#contact"
-          className="px-5 py-2 text-lg font-medium border rounded-full text-secondary border-primary"
+          className="px-5 py-2 text-lg font-medium border rounded-full text-text border-text hover:text-white hover:bg-text transition-all"
         >
           Contact
         </a>

@@ -19,9 +19,9 @@ const AboutSlider = () => {
         modules={[Autoplay, Pagination]}
         className="z-10 mySwiper"
       >
-        <SwiperSlide>
+        {/* <SwiperSlide>
           <img srcSet="/hoangloi2.jpg 1.5x" alt="hoangloi-img2" />
-        </SwiperSlide>
+        </SwiperSlide> */}
         <SwiperSlide>
           <img srcSet="/hoangloi3.jpg 1x" alt="hoangloi-img2" />
         </SwiperSlide>

@@ -5,7 +5,7 @@ const MenuMobileIcons = ({ showMenu, setShowMenu }) => {
     <div className="flex items-center justify-end mt-5 transition-all lg:hidden">
       {showMenu ? (
         <div
-          className="fixed z-50 text-primary"
+          className="fixed z-50 text-text"
           onClick={() => setShowMenu(!showMenu)}
         >
           <svg
@@ -25,7 +25,7 @@ const MenuMobileIcons = ({ showMenu, setShowMenu }) => {
         </div>
       ) : (
         <div
-          className="fixed z-50 text-primary dark:text-white"
+          className="fixed z-50 text-text"
           onClick={() => setShowMenu(!showMenu)}
         >
           <svg

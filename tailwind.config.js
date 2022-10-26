@@ -8,8 +8,9 @@ module.exports = {
         primary: "#594545",
         secondary: "#815B5B",
         third: "#9E7676",
-        light: "#FFF8EA",
-        dark: "#372c2c",
+        light: "#f7fbfe",
+        dark: "#1f2428",
+        text: "#5b6478",
       },
       backgroundImage: {
         "white-dots": "radial-gradient(white 1px, transparent 0)",

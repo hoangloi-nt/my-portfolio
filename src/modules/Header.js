@@ -53,19 +53,20 @@ const Header = () => {
   return (
     <header className="container">
       <div className="items-center justify-between hidden lg:flex gap-x-20">
-        {menuNav.map((item) => (
-          <a
-            key={item.title}
-            href={item.url}
-            className="text-lg font-medium text-primary dark:text-white"
-          >
-            {item.title}
-          </a>
-        ))}
-        <div className="flex items-center justify-center ml-auto gap-x-20">
+        <img srcSet="/logo.png 8x" alt="logo" />
+        <div className="flex items-center justify-center ml-auto gap-x-10">
+          {menuNav.map((item) => (
+            <a
+              key={item.title}
+              href={item.url}
+              className="text-lg font-medium text-text"
+            >
+              {item.title}
+            </a>
+          ))}
           <a
             href="#contact"
-            className="px-5 py-2 text-lg font-medium border rounded-full dark:text-white text-secondary border-primary dark:border-white"
+            className="px-5 py-2 text-lg font-medium border rounded-full text-text border-text hover:text-white hover:bg-text transition-all"
           >
             Contact
           </a>

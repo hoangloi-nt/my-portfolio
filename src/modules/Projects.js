@@ -7,18 +7,18 @@ const Projects = () => {
   return (
     <div
       id="projects"
-      className="container flex flex-col lg:flex-row items-center justify-center !mt-10 lg:gap-x-20"
+      className="container flex flex-col lg:flex-row items-center justify-center !mt-20 lg:gap-x-20"
       data-aos="fade-left"
       data-aos-offset="300"
       data-aos-easing="ease-in-sine"
     >
       <div className="relative flex items-center justify-center">
-        <Dots className="h-[500px] dark:z-[1] -left-10 -top-60"></Dots>
+        <Dots className="dark:z-[1] -left-10 -top-10"></Dots>
         <VerticalText className="dark:z-[2]">Projects</VerticalText>
       </div>
       <div className="relative flex-1 lg:ml-20">
         <ProjectsSlider></ProjectsSlider>
-        <Dots className="dark:z-[1] right-1 top-72"></Dots>
+        <Dots className="dark:z-[1] right-1 top-96"></Dots>
       </div>
     </div>
   );

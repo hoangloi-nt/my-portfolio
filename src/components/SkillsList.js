@@ -70,12 +70,12 @@ const SkillsList = () => {
         <div
           key={skill.name}
           title={skill.name}
-          className="flex items-center justify-center border border-transparent group hover:border-white "
+          className="flex items-center justify-center border border-transparent group hover:border-text"
         >
           <img
             src={skill.url}
             alt={skill.name}
-            className="w-[100px] h-[100px] object-contain grayscale group-hover:grayscale-0 transition-all"
+            className="max-w-[100px] max-h-[100px] p-1 object-contain grayscale group-hover:grayscale-0 transition-all opacity-40 group-hover:opacity-100"
           />
         </div>
       ))}

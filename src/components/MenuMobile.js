@@ -14,7 +14,7 @@ const MenuMobile = ({ showMenu, menuNav }) => {
         <a
           key={item.title}
           href={item.url}
-          className="text-xl font-medium text-primary"
+          className="text-xl font-medium text-text"
         >
           {item.title}
         </a>
@@ -22,7 +22,7 @@ const MenuMobile = ({ showMenu, menuNav }) => {
 
       <a
         href="#contact"
-        className="px-5 py-2 text-xl font-medium border rounded-full text-secondary border-primary w-fit"
+        className="px-5 py-2 text-xl font-medium border rounded-full text-text border-text w-fit"
       >
         Contact
       </a>

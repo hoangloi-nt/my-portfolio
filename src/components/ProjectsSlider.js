@@ -43,7 +43,7 @@ const ProjectsSlider = () => {
         currentProject = { ...project };
       }
     });
-    console.log(currentProject);
+
     const template = `
     <div class="lightbox">
       <div class="lightbox-content">
@@ -53,6 +53,22 @@ const ProjectsSlider = () => {
           class="lightbox-image"
         />
         <div class="lightbox-desc">
+            <div class="lightbox-close">
+              <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  fill="none"
+                  viewBox="0 0 24 24"
+                  strokeWidth={1.5}
+                  stroke="currentColor"
+                  className="w-8 h-8"
+                >
+                  <path
+                    strokeLinecap="round"
+                    strokeLinejoin="round"
+                    d="M6 18L18 6M6 6l12 12"
+                  />
+              </svg>
+            </div>
             <h1>${currentProject.name}</h1>
             <span>${currentProject.desc}</span>
             <div class="lightbox-groupbtn">
@@ -64,18 +80,34 @@ const ProjectsSlider = () => {
     </div>`;
     document.body.insertAdjacentHTML("beforeend", template);
   };
+
+  // document.querySelector(".lightbox-close").addEventListener("click", (e) => {
+  //   e.target.parentNode.removeChild(e.target);
+  // });
+
   document.addEventListener("click", function (e) {
     if (e.target.matches(".lightbox")) {
-      e.target.parentNode.removeChild(e.target);
+      e.target.parentNode?.removeChild(e.target);
     }
+    document.querySelector(".lightbox-close")?.addEventListener("click", () => {
+      document
+        .querySelector(".lightbox")
+        ?.parentNode?.removeChild(document.querySelector(".lightbox"));
+    });
   });
 
+  // if (document?.querySelector(".lightbox-close")) {
+  //   document.querySelector(".lightbox-close").addEventListener("click", (e) => {
+  //     console.log("123");
+  //   });
+  // }
+
   return (
-    <div className="grid justify-center grid-cols-1 mt-10 lg:gap-3 gap-y-5 lg:mt-0 lg:grid-cols-3">
+    <div className="grid justify-center grid-cols-1 mt-10 lg:gap-4 gap-y-5 lg:mt-0 lg:grid-cols-2">
       {projects.map((project) => (
         <div
           key={project.id}
-          className="relative w-full max-h-[210px] duration-500 cursor-pointer group"
+          className="relative w-full h-[300px] duration-500 cursor-pointer group"
           onClick={() => openProjectModel(project.id)}
         >
           <img
