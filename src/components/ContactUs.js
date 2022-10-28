@@ -40,7 +40,7 @@ export const ContactUs = () => {
       <input
         type="text"
         name="user_name"
-        className="w-full px-5 py-2 text-lg border border-text bg-light dark:bg-dark text-text dark:text-slate-400 border-solid rounded-xl"
+        className="w-full px-5 py-2 text-lg border border-solid border-text bg-light dark:bg-dark text-text dark:text-slate-400 rounded-xl"
         placeholder="Enter your name"
         required
       />
@@ -50,7 +50,7 @@ export const ContactUs = () => {
       <input
         type="email"
         name="user_email"
-        className="w-full px-5 py-2 text-lg border border-text bg-light dark:bg-dark text-text dark:text-slate-400 border-solid rounded-xl"
+        className="w-full px-5 py-2 text-lg border border-solid border-text bg-light dark:bg-dark text-text dark:text-slate-400 rounded-xl"
         placeholder="Enter your email address"
         required
       />
@@ -59,7 +59,7 @@ export const ContactUs = () => {
       </label>
       <textarea
         name="message"
-        className="w-full px-5 py-2 text-lg border border-text dark:bg-dark text-text dark:text-slate-400 border-solid min-h-[150px] rounded-xl"
+        className="w-full px-5 py-2 text-lg border border-text bg-light dark:bg-dark text-text dark:text-slate-400 border-solid min-h-[150px] rounded-xl"
         placeholder="Enter your message"
         required
       />
