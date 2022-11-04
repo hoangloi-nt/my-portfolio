@@ -35,7 +35,9 @@ const About = () => {
             </span>
             <span className="flex items-start justify-between lg:items-center gap-x-3">
               <SchoolIcon></SchoolIcon>
-              <strong>University of Information Technology (UIT) - VNU</strong>
+              <strong>
+                University of Information Technology (UIT) - VNUHCM
+              </strong>
             </span>
             <SocialGroupBtn></SocialGroupBtn>
           </div>
