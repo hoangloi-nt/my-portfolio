@@ -18,10 +18,8 @@ const AboutSlider = () => {
         loop={true}
         modules={[Autoplay, Pagination]}
         className="z-10 mySwiper"
+        data-aos="zoom-in-left"
       >
-        {/* <SwiperSlide>
-          <img srcSet="/hoangloi2.jpg 1.5x" alt="hoangloi-img2" />
-        </SwiperSlide> */}
         <SwiperSlide>
           <img srcSet="/hoangloi3.jpg 1x" alt="hoangloi-img2" />
         </SwiperSlide>

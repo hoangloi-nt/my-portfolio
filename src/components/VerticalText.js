@@ -6,6 +6,7 @@ const VerticalText = ({ right = false, children, className = "" }) => {
       className={`hidden lg:block uppercase mb-0 text-transparent text-[100px] font-bold leading-none ${className} ${
         right ? "vertical-text-right" : "vertical-text-left"
       } `}
+      data-aos="zoom-in-up"
     >
       {children}
     </div>

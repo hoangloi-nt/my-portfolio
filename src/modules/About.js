@@ -11,17 +11,15 @@ import React from "react";
 const About = () => {
   return (
     <div id="about" className="mt-20 w-full h-[full] py-10">
-      <div
-        className="container relative flex items-center justify-between"
-        data-aos="fade-right"
-        data-aos-offset="300"
-        data-aos-easing="ease-in-sine"
-      >
+      <div className="container relative flex items-center justify-between">
         <div className="flex flex-col items-center justify-center flex-auto lg:flex-row gap-x-10">
           <h1 className="mb-10 z-10 lg:hidden text-5xl font-bold text-transparent bg-clip-text bg-gradient-to-r from-[#4ca5ff] to-[#b673f8]">
             About
           </h1>
-          <div className="z-10 flex flex-col items-start justify-center w-full text-lg text-text lg:text-xl gap-y-3">
+          <div
+            className="z-10 flex flex-col items-start justify-center w-full text-lg text-text lg:text-xl gap-y-3"
+            data-aos="zoom-in-right"
+          >
             <span className="flex items-start justify-between lg:items-center gap-x-3">
               <UserIcon></UserIcon> <strong>Nguyen Tran Hoang Loi</strong>
             </span>

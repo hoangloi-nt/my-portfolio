@@ -9,9 +9,6 @@ const Contact = () => {
     <div
       id="contact"
       className="container flex flex-col lg:flex-row items-center justify-center !my-10 lg:gap-x-20 mt-20"
-      data-aos="fade-left"
-      data-aos-offset="500"
-      data-aos-duration="500"
     >
       <div className="relative flex items-center justify-center">
         <h1 className="mb-10 z-10 lg:hidden text-5xl font-bold text-transparent bg-clip-text bg-gradient-to-r from-[#4ca5ff] to-[#b673f8]">
@@ -20,13 +17,16 @@ const Contact = () => {
         <Dots className="dark:z-[1] lg:-left-20 lg:top-60 left-0 -top-20"></Dots>
         <VerticalText className="dark:z-[2]">Contact</VerticalText>
       </div>
-      <div className="flex-1 w-full lg:w-auto">
+      <div className="flex-1 w-full lg:w-auto" data-aos="zoom-in-right">
         <ContactUs></ContactUs>
       </div>
-      <div className="my-10 text-6xl font-bold text-center text-transparent bg-clip-text bg-gradient-to-r from-[#4ca5ff] to-[#b673f8] lg:my-0">
+      <div
+        className="my-10 text-6xl font-bold text-center text-transparent bg-clip-text bg-gradient-to-r from-[#4ca5ff] to-[#b673f8] lg:my-0"
+        data-aos="zoom-in-up"
+      >
         Or
       </div>
-      <div className="relative flex-1 max-w-[200px]">
+      <div className="relative flex-1 max-w-[200px]" data-aos="zoom-in-left">
         <SocialGroupBtn
           className="relative grid grid-cols-2 lg:flex lg:flex-col"
           className2="justify-end"

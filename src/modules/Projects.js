@@ -8,9 +8,7 @@ const Projects = () => {
     <div
       id="projects"
       className="container flex flex-col lg:flex-row items-center justify-center !mt-20 lg:gap-x-20"
-      data-aos="fade-left"
-      data-aos-offset="300"
-      data-aos-easing="ease-in-sine"
+      data-aos="zoom-in-down"
     >
       <h1 className="mb-10 leading-loose z-10 lg:hidden text-5xl font-bold text-transparent bg-clip-text bg-gradient-to-r from-[#4ca5ff] to-[#b673f8]">
         Projects

@@ -7,9 +7,7 @@ const Skills = () => {
     <div id="skills" className="mt-20 w-full h-full py-10">
       <div
         className="container flex flex-col lg:flex-row items-center justify-between relative"
-        data-aos="fade-right"
-        data-aos-offset="300"
-        data-aos-easing="ease-in-sine"
+        data-aos="zoom-in-up"
       >
         <h1 className="mb-10 z-10 lg:hidden text-5xl font-bold text-transparent bg-clip-text bg-gradient-to-r from-[#4ca5ff] to-[#b673f8]">
           Skills
