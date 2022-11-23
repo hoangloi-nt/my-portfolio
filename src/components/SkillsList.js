@@ -71,6 +71,7 @@ const SkillsList = () => {
           key={skill.name}
           title={skill.name}
           className="flex items-center justify-center border border-transparent group hover:border-text"
+          data-aos="zoom-in"
         >
           <img
             src={skill.url}

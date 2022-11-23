@@ -109,6 +109,7 @@ const ProjectsSlider = () => {
           key={project.id}
           className="relative w-full h-[300px] duration-500 cursor-pointer group"
           onClick={() => openProjectModel(project.id)}
+          data-aos="zoom-in"
         >
           <img
             src={project.imgLink}
