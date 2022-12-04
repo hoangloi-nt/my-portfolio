@@ -27,7 +27,11 @@ const SocialGroupBtn = ({ className = "", className2 = "" }) => {
         >
           <i className="fab fa-github"></i>
         </a>
-        <a href="mailto:hoangloi015@gmail.com" target="_blank" rel="noreferrer">
+        <a
+          href="mailto:ngtran.hoangloi@gmail.com"
+          target="_blank"
+          rel="noreferrer"
+        >
           <svg
             xmlns="http://www.w3.org/2000/svg"
             fill="none"

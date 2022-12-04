@@ -16,7 +16,7 @@ const Footer = () => {
             Mobile: <strong>0702817585</strong>
           </p>
           <p>
-            Email: <strong>hoangloi015@gmail.com</strong>
+            Email: <strong>ngtran.hoangloi@gmail.com</strong>
           </p>
         </span>
       </div>

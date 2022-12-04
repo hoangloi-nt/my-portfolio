@@ -9,9 +9,12 @@ const Projects = () => {
       id="projects"
       className="container flex flex-col lg:flex-row items-center justify-center !mt-20 lg:gap-x-20"
     >
-      <h1 className="mb-10 leading-loose z-10 lg:hidden text-5xl font-bold text-transparent bg-clip-text bg-gradient-to-r from-[#4ca5ff] to-[#b673f8]">
+      <div
+        className="mb-10 leading-loose z-10 lg:hidden text-5xl font-bold text-transparent bg-clip-text bg-gradient-to-r from-[#4ca5ff] to-[#b673f8]"
+        data-aos="fade-up"
+      >
         Projects
-      </h1>
+      </div>
       <div className="relative flex items-center justify-center">
         <Dots className="dark:z-[1] -left-10 -top-10"></Dots>
         <VerticalText className="dark:z-[2]">Projects</VerticalText>

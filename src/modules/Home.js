@@ -11,18 +11,11 @@ const Home = () => {
         data-aos="fade-right"
       >
         <Dots className="z-[1] -left-10 -top-10"></Dots>
-        <VerticalText
-          data-aos="fade-right"
-          data-aos-offset="300"
-          data-aos-easing="ease-in-sine"
-          className="z-[2]"
-        >
-          HoangLoi
-        </VerticalText>
+        <VerticalText className="z-[2]">HoangLoi</VerticalText>
       </div>
       <div className="flex-1 lg:ml-20" data-aos="fade-up">
         <div className="flex flex-col items-start justify-start gap-y-10">
-          <h1 className="text-5xl font-bold text-transparent lg:text-6xl mt-10 lg:mt-0">
+          <h1 className="mt-10 text-5xl font-bold text-transparent lg:text-6xl lg:mt-0">
             <span className="text-text">Welcome to </span> <br></br>
             <span className="bg-clip-text bg-gradient-to-r from-[#4ca5ff] to-[#b673f8]">
               my portfolio

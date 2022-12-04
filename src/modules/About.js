@@ -13,9 +13,12 @@ const About = () => {
     <div id="about" className="mt-20 w-full h-[full] py-10">
       <div className="container relative flex items-center justify-between">
         <div className="flex flex-col items-center justify-center flex-auto lg:flex-row gap-x-10">
-          <h1 className="mb-10 z-10 lg:hidden text-5xl font-bold text-transparent bg-clip-text bg-gradient-to-r from-[#4ca5ff] to-[#b673f8]">
+          <div
+            className="mb-10 z-10 lg:hidden text-5xl font-bold text-transparent bg-clip-text bg-gradient-to-r from-[#4ca5ff] to-[#b673f8]"
+            data-aos="fade-up"
+          >
             About
-          </h1>
+          </div>
           <div
             className="z-10 flex flex-col items-start justify-center w-full text-lg text-text lg:text-xl gap-y-3"
             data-aos="zoom-in-right"

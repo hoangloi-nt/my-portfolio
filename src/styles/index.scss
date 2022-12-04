@@ -27,7 +27,7 @@
 
 // Vertical text css
 .vertical-text-left {
-  transform: rotate(180deg) translate(-4px);
+  transform: rotate(180deg) translate(-4px) !important;
   writing-mode: vertical-lr;
   -webkit-text-stroke: rgb(51, 65, 85) 4px;
 }

@@ -3,7 +3,7 @@ import React from "react";
 const skills = [
   {
     name: "ReactJS",
-    url: "https://miro.medium.com/max/500/1*cPh7ujRIfcHAy4kW2ADGOw.png",
+    url: "https://i.ibb.co/C7S50kg/reactjs-logo.png",
   },
   {
     name: "HTML",

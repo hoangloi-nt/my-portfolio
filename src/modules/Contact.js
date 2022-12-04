@@ -11,9 +11,12 @@ const Contact = () => {
       className="container flex flex-col lg:flex-row items-center justify-center !my-10 lg:gap-x-20 mt-20"
     >
       <div className="relative flex items-center justify-center">
-        <h1 className="mb-10 z-10 lg:hidden text-5xl font-bold text-transparent bg-clip-text bg-gradient-to-r from-[#4ca5ff] to-[#b673f8]">
+        <div
+          className="mb-10 z-10 lg:hidden text-5xl font-bold text-transparent bg-clip-text bg-gradient-to-r from-[#4ca5ff] to-[#b673f8]"
+          data-aos="fade-up"
+        >
           Contact
-        </h1>
+        </div>
         <Dots className="dark:z-[1] lg:-left-20 lg:top-60 left-0 -top-20"></Dots>
         <VerticalText className="dark:z-[2]">Contact</VerticalText>
       </div>
