@@ -32,15 +32,15 @@ const Home = () => {
           </div>
           <div className="flex items-start justify-center gap-x-10">
             <a
-              href="/FrontendDeveloper_NguyenTranHoangLoi.pdf"
+              href="/FrontendIntern_NguyenTranHoangLoi_CV.pdf"
               target="_blank"
               className="flex items-start justify-center px-4 py-2 text-xl border rounded-full text-text border-text max-w-[200px] hover:bg-text hover:text-white transition-all"
             >
               View CV
             </a>
             <a
-              href="/FrontendDeveloper_NguyenTranHoangLoi.pdf"
-              download="FrontendDeveloper_NguyenTranHoangLoi"
+              href="/FrontendIntern_NguyenTranHoangLoi_CV.pdf"
+              download="FrontendIntern_NguyenTranHoangLoi_CV"
               className="flex items-start justify-center px-4 py-2 text-xl border rounded-full text-text border-text max-w-[200px] hover:bg-text hover:text-white transition-all"
             >
               Download CV
