@@ -161,8 +161,7 @@ const Home = () => {
           </div>
         </div>
 
-        {/* <img srcSet="/hoangloi-bg.png 2x" alt="hoangloi-bg" />
-        <Dots className="absolute z-10 right-2 top-3 w-[300px] h-[300px]"></Dots> */}
+        {/* <Dots className="absolute z-10 right-2 top-3 w-[300px] h-[300px]"></Dots> */}
       </div>
     </div>
   );
