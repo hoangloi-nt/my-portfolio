@@ -107,7 +107,7 @@ const ProjectsSlider = () => {
       {projects.map((project) => (
         <div
           key={project.id}
-          className="relative w-full h-[300px] duration-500 cursor-pointer group"
+          className="relative w-full h-[300px] duration-500 cursor-pointer group z-10"
           onClick={() => openProjectModel(project.id)}
           data-aos="zoom-in"
         >

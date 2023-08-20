@@ -26,21 +26,21 @@ const Home = () => {
             <ChangingText></ChangingText>
           </div>
           <div className="flex items-start justify-center w-full text-lg text-justify lg:text-xl dark:bg-transparent text-text">
-            I am a hardworking and creative individual, because my goal is to
-            become a master frontend developer. I am eager to have an internship
-            opportunity in order to grow and further improve my frontend skills.
+            "As a front-end developer, I'm fueled by creativity and dedication.
+            Eager to start my professional journey and apply my skills in a
+            dynamic role."
           </div>
           <div className="flex items-start justify-center gap-x-10">
             <a
-              href="/FrontendIntern_NguyenTranHoangLoi_CV.pdf"
+              href="/Resume_NguyenTranHoangLoi_FrontendDeveloper.pdf"
               target="_blank"
               className="flex items-start justify-center px-4 py-2 text-xl border rounded-full text-text border-text max-w-[200px] hover:bg-text hover:text-white transition-all"
             >
               View CV
             </a>
             <a
-              href="/FrontendIntern_NguyenTranHoangLoi_CV.pdf"
-              download="FrontendIntern_NguyenTranHoangLoi_CV"
+              href="/Resume_NguyenTranHoangLoi_FrontendDeveloper.pdf"
+              download="Resume_NguyenTranHoangLoi_FrontendDeveloper"
               className="flex items-start justify-center px-4 py-2 text-xl border rounded-full text-text border-text max-w-[200px] hover:bg-text hover:text-white transition-all"
             >
               Download CV
