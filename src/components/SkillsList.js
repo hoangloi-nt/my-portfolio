@@ -61,6 +61,14 @@ const skills = [
     name: "Zustand",
     url: "https://i.ibb.co/k1Ndz8B/image.png",
   },
+  {
+    name: "Adobe Photoshop",
+    url: "https://i.ibb.co/jkyYT2N/image.png",
+  },
+  {
+    name: "Adobe Illustrator",
+    url: "https://i.ibb.co/hHCs2YJ/image.png",
+  },
 ];
 
 const SkillsList = () => {

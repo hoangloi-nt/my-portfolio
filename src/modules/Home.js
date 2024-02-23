@@ -26,9 +26,9 @@ const Home = () => {
             <ChangingText></ChangingText>
           </div>
           <div className="flex items-start justify-center w-full text-lg text-justify lg:text-xl dark:bg-transparent text-text">
-            "As a front-end developer, I'm fueled by creativity and dedication.
-            Eager to start my professional journey and apply my skills in a
-            dynamic role."
+            "As a front-end developer and UI/UX designer, I'm fueled by
+            creativity and dedication. I am eager to start my professional
+            journey and apply my skills in a dynamic role."
           </div>
           <div className="flex items-start justify-center gap-x-10">
             <a

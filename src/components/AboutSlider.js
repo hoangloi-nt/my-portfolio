@@ -29,6 +29,9 @@ const AboutSlider = () => {
         <SwiperSlide>
           <img srcSet="/hoangloi5.jpg 1.5x" alt="hoangloi-img2" />
         </SwiperSlide>
+        <SwiperSlide>
+          <img srcSet="/hoangloi6.jpg 1.5x" alt="hoangloi-img2" />
+        </SwiperSlide>
       </Swiper>
     </>
   );

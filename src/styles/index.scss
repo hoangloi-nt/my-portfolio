@@ -154,6 +154,11 @@
   transform: translateY(4px);
 }
 
+.social-icons a:nth-child(5) {
+  color: #1666f7;
+  background-image: linear-gradient(#fff 50%, #1666f7 50%);
+}
+
 .social-icons a:hover {
   background-position: 0% 100%;
   color: #fff;
@@ -300,6 +305,10 @@
 .lightbox-groupbtn a:hover {
   background-color: #fff;
   color: #594545;
+}
+
+.lightbox-groupbtn a.non-display {
+  visibility: hidden;
 }
 
 // Custom scrollbar
