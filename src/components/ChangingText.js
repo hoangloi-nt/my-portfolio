@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import TextTransition, { presets } from "react-text-transition";
 
-const TEXTS = ["Hoang Loi", "Front-end Developer", 'UI/UX Designer'];
+const TEXTS = ["Hoang Loi", "Front-end Developer"];
 
 const ChangingText = () => {
   const [index, setIndex] = useState(0);

@@ -47,13 +47,13 @@ const SocialGroupBtn = ({ className = "", className2 = "" }) => {
             />
           </svg>
         </a>
-        <a
+        {/* <a
           href="https://www.behance.net/nguyentranhoangloi"
           target="_blank"
           rel="noreferrer"
         >
           <i class="fab fa-behance"></i>
-        </a>
+        </a> */}
       </div>
     </div>
   );
