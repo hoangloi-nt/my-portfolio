@@ -37,8 +37,7 @@ const projects = [
     id: 5,
     name: "Pet Home UI",
     desc: "Pet adoption application interface designed with Figma",
-    demoLink:
-      "https://www.behance.net/gallery/192150375/PET-HOME-Pet-Adoption-App",
+    demoLink: "https://www.behance.net/gallery/",
     imgLink: "https://i.ibb.co/svhqLr0/Slide-16-9-2.jpg",
   },
 ];
@@ -83,8 +82,8 @@ const ProjectsSlider = () => {
                 <a class="${
                   currentProject.githubLink ? "" : "non-display"
                 }" href="${
-      currentProject.githubLink
-    }" target="_blank">Source code</a>
+                  currentProject.githubLink
+                }" target="_blank">Source code</a>
                 <a href="${
                   currentProject.demoLink
                 }" target="_blank">View demo</a>

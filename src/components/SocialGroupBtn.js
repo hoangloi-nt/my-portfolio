@@ -7,21 +7,21 @@ const SocialGroupBtn = ({ className = "", className2 = "" }) => {
     >
       <div className={`social-icons ${className}`}>
         <a
-          href="https://www.facebook.com/nguyentranhoang.loi/"
+          href="https://www.facebook.com/"
           target="_blank"
           rel="noreferrer"
         >
           <i className="fab fa-facebook"></i>
         </a>
         <a
-          href="https://www.linkedin.com/in/nguyen-tran-hoang-loi/"
+          href="https://www.linkedin.com/"
           target="_blank"
           rel="noreferrer"
         >
           <i className="fab fa-linkedin"></i>
         </a>
         <a
-          href="https://github.com/hoangloi-nt"
+          href="https://github.com/"
           target="_blank"
           rel="noreferrer"
         >
